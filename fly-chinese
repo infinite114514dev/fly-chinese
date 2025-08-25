@@ -414,7 +414,7 @@ plus.MouseButton1Down:connect(function()
 end)
 mine.MouseButton1Down:connect(function()
 	if speeds == 1 then
-		speed.Text = 'flyno1'
+		speed.Text = '飞行速度不能小于1'
 		wait(1)
 		speed.Text = speeds
 	else
